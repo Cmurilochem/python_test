@@ -3,4 +3,5 @@ def my_func(x):
     return y
 
 def my_printData():
-    return "Hey, I am a function"    
+    output = "Hey, I am a function"
+    return output    
