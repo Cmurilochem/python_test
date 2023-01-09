@@ -1,5 +1,6 @@
 import numpy as np
-import sys
+from functions.functions import * 
 
-print(sys.version)
+print(f(2))
+print(printData())
 
