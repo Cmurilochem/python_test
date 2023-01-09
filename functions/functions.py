@@ -1,6 +1,6 @@
-def f(x):
+def my_func(x):
     y = x**2
     return y
 
-def printData():
+def my_printData():
     return "Hey, I am a function"    
