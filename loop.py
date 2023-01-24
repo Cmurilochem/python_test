@@ -8,8 +8,8 @@ for i in range(len(list)): # running over the indexes and lokking for the yellow
     if (list[i]=="yellow"):
         list[i]="white"
 
-for i,element in enumerate(list): # this is a very interesting example where you can print the indexes for each color 
-    print(i,element)        
+for index,element in enumerate(list): # this is a very interesting example where you can print the indexes for each color 
+    print(index,element)        
 
 new_list = []
 i=0

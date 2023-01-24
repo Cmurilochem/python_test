@@ -16,5 +16,7 @@ print(printStuff(list_num))
 
 print(printNames("Murilo","Simone","Clezia"))
 
+my_function(fname = "Tobias", lname = "Samet")
+
 #print(help(my_func))
 

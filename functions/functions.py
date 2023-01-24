@@ -17,10 +17,13 @@ def printStuff(stuff):
     for i,s in enumerate(stuff):
         print("Index",i,"Number",s)
 
-def printNames(*names): # the input is a list with generic size 
+def printNames(*names): # if you do not know the number of arguments to pass # printNames("Murilo","Simone","Clezia",...,"Antonio")
     """ testing the generic number """
     for name in names:
         print(name)  
+
+def my_function(**kid): # If the number of keyword arguments is unknown # my_function(fname = "Tobias", lname = "Refsnes")
+  print("His last name is " + kid["lname"])        
 
 def type_of_album(artist, album, year_released):
     """ test using if and else for return """
