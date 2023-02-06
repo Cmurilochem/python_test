@@ -13,6 +13,9 @@ list.extend([1,3.14,90]) # extending the list
 
 list.append(["ok", "dude"]) # append just add one nested term in the list
 
+print(list)
+print(list[3::])
+
 dict = {"Murilo":10, "Simone":100, "Antonio":1000, "Clezia":10} # this is an example of dictionary: keys ("Murilo") are immutable
 
 set1 = {"Eu","Tu","Eles","Nos","Vos","Eles","Eles"} # this is an example of a set: it does not have orders like lists, tuples 
