@@ -1,7 +1,11 @@
 import numpy as np
 from functions.functions import * 
 
-list_num = [1,3,2]
+list_num = [1,3,2,5,6]
+
+list = ["eu", "tu", "ele", "nos"]
+
+print(list_num[::2],list.split())
 
 new_list = sorted(list_num) # organing the list in crescent way using a function
 

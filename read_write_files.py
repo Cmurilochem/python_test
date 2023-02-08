@@ -12,7 +12,7 @@ file1.close()                        # closing the file
 
 with open("example_file.txt","r") as file1:
 
-    file_stuff1 = file1.readlines(5) # reads only line 1 and printts the firt 10 characteres
+    file_stuff1 = file1.readlines(2) # reads only line 1 and printts the firt 10 characteres
 
     file_stuff2 = file1.readlines(7) #reads the second line and prints the first 5 chararcters
 
