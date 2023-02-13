@@ -1,7 +1,8 @@
 import numpy as np
 from functions.functions import * 
-from mypackage.module1 import square,double
-from mypackage.module2 import mean
+#from mypackage.module1 import square,double
+#from mypackage.module2 import mean
+import mypackage as mpcg
 
 list_num = [1,3,2,5,6]
 
@@ -26,5 +27,5 @@ my_function(fname = "Tobias", lname = "Samet")
 
 #print(help(my_func))
 
-print(square(2),double(2),mean(list_num))
+print(mpcg.module1.square(2),mpcg.module1.double(2),mpcg.module2.mean(list_num))
 
